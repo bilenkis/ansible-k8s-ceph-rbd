@@ -27,7 +27,7 @@ Example Playbook
 
 Here as a small example playbook:
 
-```yaml
+```
   - name: Add Ceph RBD to k8s
     hosts: localhost
     roles:
