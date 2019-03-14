@@ -3,4 +3,4 @@
   vars:
     ansible_python_interpreter: python3
   roles:
-    - k8s_ceph_rbd
+    - bilenkis.ansible_k8s_ceph_rbd

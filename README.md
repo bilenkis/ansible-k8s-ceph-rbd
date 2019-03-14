@@ -28,22 +28,22 @@ Example Playbook
 Here as a small example playbook:
 
 ```yaml
-  - name: Add Ceph RBD to k8s
-    hosts: localhost
-    roles:
-       - bilenkis.k8s_ceph_rbd
+- name: Add Ceph RBD to k8s
+  hosts: localhost
+  roles:
+     - bilenkis.ansible_k8s_ceph_rbd
 ```
 
 You can run it with:
 
 ```sh
-ansible-playbook -i k8s_ceph_rbd/tests/inventory k8s_ceph_rbd/tests/test.yml
+ansible-playbook -i tests/inventory tests/test.yml
 ```
 
 License
 -------
 
-## see [ Apache License 2.0 ]( LICENSE )
+[ Apache License 2.0 ]( LICENSE )
 
 Author Information
 ------------------
